@@ -106,7 +106,7 @@ function App() {
 
   const [ciao, setCiao] = useState(false)
 
-  /*useEffect(() => {
+  useEffect(() => {
     if (document.querySelector(".punkdisplay") && !ciao) {
       setCiao(true)
       // Matter.js module aliases
@@ -319,7 +319,8 @@ function App() {
     }
 
 
-  }, [ciao]);*/
+  }, [ciao]);
+
   return (
     <div className="App">
       <StarField></StarField>
